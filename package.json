@@ -1,0 +1,25 @@
+{
+  "name": "dhtspider",
+  "version": "0.1.0",
+  "description": "Bittorrent dht network infohash spider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanyang/dhtspider.git"
+  },
+  "keywords": [
+    "bittorrent",
+    "dht",
+    "spider",
+    "crawler"
+  ],
+  "author": "Alan Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanyang/dhtspider/issues"
+  },
+  "homepage": "https://github.com/alanyang/dhtspider#readme"
+}
