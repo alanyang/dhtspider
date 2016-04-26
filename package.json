@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/alanyang/dhtspider/issues"
   },
-  "homepage": "https://github.com/alanyang/dhtspider#readme"
+  "homepage": "https://github.com/alanyang/dhtspider#readme",
+  "dependencies": {
+    "bencode": "^0.9.0"
+  }
 }
