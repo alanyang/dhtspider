@@ -21,7 +21,7 @@ const spider = new (require('dhtspider'))
 
 spider.on('ensureHash', (hash, addr)=> console.log(`magnet:?xt=urn:btih:${hash}`))
 
-spider.lisen(6339)
+spider.listen(6339)
 ```
 
 ## API
