@@ -4,7 +4,7 @@ develop for [engiy.com](http://engiy.com)(A bittorrent resource search engine)
 Implements [DHT protocol](http://www.bittorrent.org/beps/bep_0005.html)
 
 ## requirement
-Node.js 5.0+
+Node.js 6.0+
 
 
 ## install
@@ -30,7 +30,7 @@ spider.listen(6339)
 ##### tableCaption
 default is 600, if your server have a lot memory, increasing this value can improve crawl efficiency
 ##### bootstraps
-enter dht network nodes, default is
+entry of dht network, default is
 ```javascript
 [{ address: 'router.bittorrent.com', port: 6881}, {address: 'dht.transmissionbt.com',port: 6881}]
 ```
@@ -47,6 +47,6 @@ Got nodes, invoke on find_node success
 Got a ensured info hash, callback has two arguments, first is hex info hash, second is a tcp address {address: 'x.x.x.x', port: xxx} for fetch metainfo of the resource by [Extension for Peers to Send Metadata Files](http://www.bittorrent.org/beps/bep_0009.html)
 
 
-### Online Sample [Bittorrent resource search engine](http://engiy.com)
+#### Online Sample [Bittorrent resource search engine](http://engiy.com)
 
 
